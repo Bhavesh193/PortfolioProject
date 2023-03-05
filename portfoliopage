@@ -1,0 +1,124 @@
+#  -----------HTML CODE------------#
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+        <div id="nav-left">
+        <div id="logo">
+        <img src="https://b2569356.smushcdn.com/2569356/wp-content/uploads/2020/11/AdobeStock_241083104-540x420.jpg?lossy=1&strip=1&webp=1" height="40px" >
+        </div>
+        <h1 style="color: green;">Portfolio</h1>
+        <div id="menu">
+        <ol id="menuList">
+        <li class="menuoption">Home</li>
+        <li class="menuoption">About Us</li>
+        <li class="menuoption">Skills</li>
+        <li class="menuoption">Experiences</li>
+        <li class="menuoption">Contact</li>
+        </ol>
+        </div>
+        </div>
+        </nav>
+        </header>
+        <br>
+        <pre>
+        <h1 style="text-align: center ;"> <b>Portfolio Profile</b>
+       </h1>
+        </pre>
+        <link rel="stylesheet" type="text/css"
+       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+        <div class="container">
+        <div class="row">
+        <div class="col-md-6" height: 500px; width:400px;>
+        <pre> <img src="bhavesh2.jpg" alt="" width="250px" height="300px">
+       </pre></div>
+       <div class="col-md-6" height: 350px; width: 400px;>
+        <div class="shadow p-4 m-4 rb cn "><div class="info">
+            <h1>I'm Creative<br>Web Developer</h1>
+            <h4>Welcome to my Portfolio Profile Guys!</h4>
+            <h3>My name is Bhavesh Choudhary</h3>
+        <h6>I am student of AC PATIL COLLEGE OF ENGINEERING.I am learning Web
+       Development. I like to create website , I have very much interest in this field.
+       Till now, I have learnt HTML, CSS and bootstrap. I have Interest in learning
+       javascript and want to create more interesting web pages for all of u guys!</h6>
+        </div>
+       </div>
+        </div>
+        </div>
+</body>
+</html>
+
+
+
+
+
+#------------CSS----------------
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+
+#navbar{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   height: 70px;
+   z-index: 999;
+   background:rgb(126, 177, 189);
+   box-shadow: 8px 8px 8px 8px rgb(27, 24, 24);
+}
+#nav-left{
+   height: 100%;
+   width: 50%;
+   margin-left: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+#logo{
+   height: 80%;
+   margin-top:10px;
+   margin-bottom:10px;
+   width: 50px;
+   text-align: center;
+}
+#menuList{
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.menuoption{
+   margin-right: 30px;
+   font-size: 20px;
+   font-weight: 900;
+   align-items: center;
+   cursor: pointer;
+   
+}
+.rb{
+    border-radius: 20px;
+    range: right;
+}
+
+body{
+    background-color: black ;
+    
+}
+
+header nav  ol:hover{
+    color: rgb(171, 83, 86);
+}
+
+
